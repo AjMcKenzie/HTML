@@ -1,9 +1,22 @@
+body{
+  background-image: url("images/icecreamback.gif");
+}
+
+h1{
+  text-align: center;
+
+}
+
+
 table{
   width: 75%;
 }
  th, td{
    border: 1px solid black;
    height: 80px;
+}
+td{
+  background-color: green;
 }
 
 th{
@@ -14,24 +27,39 @@ th{
   color: blue;
   background-size: 100% 300%;
   background-position: center;
+  text-align: center;
+  font-size: 50px;
 }
 .mint{
   background-image: url("images/mint.jpg");
   color: blue;
+  color: blue;
+  background-size: 60% 400%;
+  background-position: center;
+  text-align: center;
+  font-size: 50px;
 }
 .dough{
   background-image: url("images/cookiedough.jpg");
   color: blue;
-  background-size: 100% 300%;
+  background-size: 80% 300%;
   background-position: center;
+  text-align: center;
+  font-size: 50px;
 }
 .peanut{
   background-image: url("images/peanutbuttercream.jpg");
   color: blue;
-    background-size: 100% 300%;
-    background-position: center;
+  background-size: 100% 300%;
+  background-position: center;
+  text-align: center;
+  font-size: 50px;
 }
 .road{
   background-image: url("images/rocky.jpg");
   color: blue;
+  background-size: 80% 300%;
+  background-position: center;
+  text-align: center;
+  font-size: 50px;
 }
