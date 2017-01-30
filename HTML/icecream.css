@@ -1,0 +1,37 @@
+table{
+  width: 75%;
+}
+ th, td{
+   border: 1px solid black;
+   height: 80px;
+}
+
+th{
+  background-color: green;
+}
+.Cream{
+  background-image: url("images/CookiesCream.jpg");
+  color: blue;
+  background-size: 100% 300%;
+  background-position: center;
+}
+.mint{
+  background-image: url("images/mint.jpg");
+  color: blue;
+}
+.dough{
+  background-image: url("images/cookiedough.jpg");
+  color: blue;
+  background-size: 100% 300%;
+  background-position: center;
+}
+.peanut{
+  background-image: url("images/peanutbuttercream.jpg");
+  color: blue;
+    background-size: 100% 300%;
+    background-position: center;
+}
+.road{
+  background-image: url("images/rocky.jpg");
+  color: blue;
+}
