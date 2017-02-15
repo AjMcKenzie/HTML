@@ -34,5 +34,28 @@
         <td class="road">Rocky Road</td>
       </tr>
     </table>
+
+    <p>Click the button to leave page.</p>
+
+    <button onclick="myFunction()">Leave</button>
+
+    <p id="test"></p>
+
+    <script>
+    function myFunction() {
+      var closeingPageWhenAlertBoxAppears;
+      if(confirm("Are you sure you want to leave?") == true)
+      {
+        closeingPageWhenAlertBoxAppears = window.close();
+      }
+      else
+      {
+          closeingPageWhenAlertBoxAppears = "Horray, you don't want to leave!";
+      }
+      document.getElementById("test").innerHTML = closeingPageWhenAlertBoxAppears;
+
+    }
+    </script>
+
   </body>
 </html>
