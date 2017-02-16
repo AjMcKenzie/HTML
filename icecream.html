@@ -35,22 +35,22 @@
       </tr>
     </table>
 
-    <p>Click the button to leave page.</p>
 
-    <button onclick="myFunction()">Leave</button>
+    <button onclick="myFunction()">Click this button to leave the page.</button>
 
     <p id="test"></p>
 
     <script>
     function myFunction() {
       var closeingPageWhenAlertBoxAppears;
-      if(confirm("Are you sure you want to leave?") == true)
+      if(confirm("Are you sure you want to leave? I thought you liked ice cream.") == true)
       {
         closeingPageWhenAlertBoxAppears = window.close();
+        closeingPageWhenAlertBoxAppears = "Are you sure you want to leave?";  
       }
       else
       {
-          closeingPageWhenAlertBoxAppears = "Horray, you don't want to leave!";
+         closeingPageWhenAlertBoxAppears = "Horray, you don't want to leave!";
       }
       document.getElementById("test").innerHTML = closeingPageWhenAlertBoxAppears;
 
